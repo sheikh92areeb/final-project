@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+:root
+{
+	--bg-black-900: #f2f2fc;
+	--bg-black-100: #fdf9ff;
+	--bg-black-50: #e8dfec;
+	--text-black-900: #302e4d;
+	--text-black-700: #504e70;
+	--skin-color: #ec1839;
+}
+body
+{
+	background-color: #f0f0f0;
+	/*background-color: var(--bg-black-900);*/
+}
+header
+{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	background-color: var(--bg-black-900);
+}
+.img-down .dropdown-menu .dropdown-item
+{
+	line-height: 20px;
+	color: var(--text-black-700) !important;
+}
+.img-down .dropdown-menu .dropdown-item:hover
+{
+	background-color: var(--text-black-700);
+	color: var(--bg-black-900)!important;
+}
+.sd_bar
+{
+	background-color: var(--bg-black-900);
+	width: 200px !important;
+	height: 100vh;
+	position: fixed;
+}
+.logo
+{
+	text-align: center;
+	color: var(--bg-black-50) !important;
+	font-family: inherit !important;
+	font-style: italic;
+	/*font-weight: 700 !important;*/
+	font-size: 25px !important;
+	letter-spacing: 5px !important;
+	border-bottom: solid 1px var(--bg-black-100);
+	margin-bottom: 20px;
+}
+.logo:hover
+{
+	color: var(--bg-black-50) !important;
+}
+.logo span
+{
+	font-family: 'Clicker Script', cursive !important;
+	font-size: 40px !important;
+	color: var(--skin-color) !important;
+	font-weight: 600;
+	margin-right: -10px;
+}
+.sd_bar ul li
+{
+	border-bottom: dashed 1px var(--bg-black-100);
+	padding: 10px 0;
+}
+.sd_bar ul li a{
+	color: var(--bg-black-100);
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.sd_bar ul li a:hover
+{
+	background-color: var(--bg-black-100);
+	color: var(--text-black-700);
+}
+.active
+{
+	background-color: var(--bg-black-100)!important;
+	color: var(--text-black-700)!important;	
+}
+#adminpage
+{
+	padding-left: 230px;
+	padding-top: 50px;
+}
+.card-header a h6
+{
+	color: var(--text-black-700);
+	font-size: 17px;
+}
+.card-header form button, .card-header form button:hover
+{
+	background-color: var(--text-black-700);
+	color: var(--bg-black-100);
+}
+.card-body table thead tr th
+{
+	color: var(--text-black-700);
+}
+.card-body table tbody tr td
+{
+	padding: 0;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	color: var(--text-black-700);
+}
+.card-body table tbody tr td .btn
+{
+	background-color: var(--text-black-700);
+	color: var(--bg-black-100);
+	font-size: 12px;
+	padding: 3px 8px;
+}
+.card-body table tbody tr td .btn:hover
+{
+	background-color: var(--bg-black-100);
+	color: var(--text-black-700);
+	border: solid 1px var(--text-black-700);
+}

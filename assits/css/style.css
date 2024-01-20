@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+:root
+{
+	--bg-black-900: #f2f2fc;
+	--bg-black-100: #fdf9ff;
+	--bg-black-50: #e8dfec;
+	--text-black-900: #302e4d;
+	--text-black-700: #504e70;
+	--skin-color: #ec1839;
+}
+body
+{
+	background-color: #f0f0f0;
+	/*background-color: var(--bg-black-900);*/
+}
+a{
+	color: var(--text-black-700)!important;
+}
+a:hover
+{
+	color: var(--skin-color)!important;
+}
+.active
+{
+	color: var(--skin-color)!important;	
+}
+.ribon
+{
+	width: 100%;
+	height: 15px;
+	/*background-color: var(--bg-black-900);*/
+}
+.con-ribon
+{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	color: var(--bg-black-900);
+	padding-left: 20px;
+	font-weight: 500;
+	font-size: 18px;
+	border-radius: 5px;
+	/*background-color: var(--bg-black-900);*/
+}
+#border
+{
+	border: solid 1px var(--bg-black-50);
+}
+.cd_body
+{
+	width: 459px;
+	height: 200px;
+	margin-left: 20px;
+	border: solid 1px var(--bg-black-50);
+	overflow: auto;
+}
+.cd_body a:hover, .sc_body a:hover
+{
+	color: var(--text-black-700) !important;
+}
+.cd_body ul
+{
+	padding: 0;
+	padding-left: 20px;
+	margin: 0;
+	margin-top: 15px;
+}
+.cd_body ul li{
+	display: inline-block;
+	font-size: 13px;
+}
+.cd_body ul li span i{
+	color: var(--skin-color);
+}
+.cd_body a h4
+{
+	margin: 0;
+	margin-top: 8px;
+	padding: 0;
+	padding-left: 20px;
+}
+.cd_body p{
+	width: 420px;
+	font-size: 14px;
+	padding: 0;
+	padding-left: 20px;
+	margin: 0;
+	margin-top: 8px;
+}
+#btn
+{
+	border: solid 1px var(--text-black-700);
+	border-radius: 5px;
+	color: var(--text-black-700);
+	padding: 5px 10px;
+	font-size: 15px;
+	margin-left: 20px;
+}
+#btn:hover
+{
+	border: solid 1px var(--skin-color);
+	color: var(--skin-color) !important;
+}
+.logo
+{
+	color: var(--text-black-700) !important;
+	font-family: inherit !important;
+	font-style: italic;
+	/*font-weight: 700 !important;*/
+	font-size: 30px !important;
+	letter-spacing: 5px !important;
+	padding: 0 14px;
+}
+.logo span
+{
+	font-family: 'Clicker Script', cursive !important;
+	font-size: 40px !important;
+	color: var(--skin-color) !important;
+	font-weight: 600;
+	margin-right: -10px;
+}
+.sd_bar , .b_body
+{
+	height: fit-content;
+}
+.sc_img
+{
+	width: 90px;
+}
+.sc_body
+{
+	width: 217px;
+}
+.sc_body a h5
+{
+	padding: 0;
+	padding-left: 10px;
+	margin: 0;
+	margin-top: 8px;
+}
+.sc_body ul
+{
+	padding: 0;
+	padding-left: 10px;
+	margin: 0;
+	margin-top: 15px;
+}
+.sc_body ul li{
+	display: inline-block !important;
+	font-size: 13px !important;
+	border: none !important;
+}
+.sc_body ul li span i{
+	color: var(--skin-color);
+}
+.sd_bar ul li{
+	list-style: none;
+	padding: 8px 0;
+	margin: 5px 0;
+	border-bottom: dashed 1px var(--text-black-700);
+	font-size: 18px;
+}
+.hero, .s_hero
+{
+	position: relative;
+}
+.hero_cont
+{
+	position: absolute;
+	bottom: 40px;
+	left: 30px;
+}
+.hero_cont a, .s_hero a
+{
+	color: var(--bg-black-900)!important;
+}
+.hero_cont h4
+{
+	padding-left: 20px;
+	margin-bottom: 20px;
+	font-size: 34px;
+}
+.hero_cont span{
+	padding-left: 20px;
+}
+.hero_cont span a{
+	border: solid 1px var(--text-black-900);
+	background-color: var(--text-black-900);
+	padding: 5px 10px;
+}
+.hero_cont span a:hover
+{
+	border: solid 1px var(--bg-black-900);
+	background-color: var(--bg-black-900);
+	color: var(--text-black-900)!important;
+}
+.hero_cont ul, .s_hero_cont ul
+{
+	padding: 0;
+	margin: 0;
+	margin-top: 20px;
+}
+.hero_cont ul li, .s_hero_cont ul li
+{
+	display: inline-block;
+	font-size: 14px;
+}
+.s_hero_cont
+{
+	position: absolute;
+	bottom: 18px;
+	left: 15px;
+}
+.s_hero_cont h4
+{
+	padding-left: 10px;
+	margin-bottom: 10px;
+	font-size: 24px;
+}
+.s_hero_cont span{
+	padding-left: 10px;
+}
+.s_hero_cont span a{
+	border: solid 1px var(--text-black-900);
+	background-color: var(--text-black-900);
+	padding: 3px 7px;
+	font-size: 12px;
+}
+.s_hero_cont span a:hover
+{
+	border: solid 1px var(--bg-black-900);
+	background-color: var(--bg-black-900);
+	color: var(--text-black-900)!important;
+}
+.s_hero ul{
+	margin-top: 10px;
+}
+.s_hero ul li{
+	font-size: 10px;
+	margin-right: 5px;
+}

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+:root
+{
+	--bg-black-900: #f2f2fc;
+	--bg-black-100: #fdf9ff;
+	--bg-black-50: #e8dfec;
+	--text-black-900: #302e4d;
+	--text-black-700: #504e70;
+	--skin-color: #ec1839;
+}
+body
+{
+	background-color: #f0f0f0;
+	position: relative;
+	/*background-color: var(--bg-black-900);*/
+}
+main{
+	position: relative;
+}
+.back{
+	position: absolute;
+	top: 20px;
+	left: 40px;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 50%;
+	background-color: var(--text-black-700);
+	color: var(--bg-black-100);
+}
+.logo
+{
+	color: var(--text-black-700) !important;
+	font-family: inherit !important;
+	font-style: italic;
+	/*font-weight: 700 !important;*/
+	font-size: 30px !important;
+	letter-spacing: 5px !important;
+	padding: 0 14px;
+}
+.logo span
+{
+	font-family: 'Clicker Script', cursive !important;
+	font-size: 45px !important;
+	color: var(--skin-color) !important;
+	font-weight: 600;
+	margin-right: -12px;
+}
+form input
+{
+	background-color: var(--bg-black-900)!important;
+}
