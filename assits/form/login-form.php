@@ -3,10 +3,10 @@
    include 'header.php'; 
    session_start();
 
-   if(isset($_SESSION['user_data'])) 
-   {
-      header("location:../../admin/index.php");
-   }
+   // if(isset($_SESSION['user_data'])) 
+   // {
+   //    header("location:../../admin/index.php");
+   // }
 ?>
     <main class="form-signin col-3 m-auto text-center py-3 my-5 bg-light rounded shadow">
          <form class="col-10 m-auto" method="POST">
